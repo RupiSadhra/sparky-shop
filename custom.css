@@ -1,0 +1,109 @@
+@font-face{
+    font-family:Avenir;
+    src:url("../assets/font/AvenirLTStd-Black.otf")
+}
+*{
+    font-family:Avenir,sans-serif
+}
+.desc,.furgan-heading.style-01 .subtitle,ol,p,ul{
+    color:#000
+}
+.top-header-menu{
+    padding:10px 20px
+}
+.top-header-menu>li>a{
+    font-weight:500;
+    border-bottom:2px solid;
+    border-color:transparent;
+    transition:border-color .3s
+}
+.top-header-menu>li>a:hover{
+    color:#fff;
+    border-color:#fff
+}
+.top-header-menu>li{
+    border-right:2px solid #fff
+}
+.box-header-nav .main-menu>.menu-item>a{
+    font-size:16px;
+    font-weight:600;
+    letter-spacing:0;
+    transition:color .3s
+}
+.box-header-nav .main-menu>.menu-item>a:hover{
+    color:#a4161a!important
+}
+.section-034.special-banner{
+    padding-top:0!important
+}
+.special-content{
+    padding-left:100px
+}
+.button-style,.common-button,.hero-button,.hero-button-outline{
+    padding:10px 25px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    border:2px solid #000;
+    transition:.3s
+}
+.special-content .button-style{
+    margin-right:20px
+}
+a.button:hover{
+    text-decoration:none!important
+}
+.button-style{
+    display:inline-block;
+    margin-top:16px;
+    text-align:center;
+    background:#000;
+    color:#fff!important;
+    overflow:hidden;
+    z-index:999;
+}
+.button-outline{
+    background-color:transparent!important;
+    color:#000!important;
+    border:2px solid #000;
+    transition:.3s
+}
+.button-outline:hover,.button-style:hover{
+    color:#fff!important;
+    background-color:#a4161a!important;
+    border-color:#a4161a!important
+}
+.common-button{
+    background:#000;
+    color:#fff
+}
+.common-button:hover{
+    border: 2px solid #a4161a;
+}
+.hero-button{
+    background:#fff;
+    color:#000 !important;
+}
+.hero-button-outline{
+    background:transparent;
+    color:#fff;
+	border:2px solid #fff !important;
+}
+.copyright{
+    color:#fff
+}
+.price {
+	display: none !important;
+}
+@media (max-width:992px){
+    .special-content{
+        padding-left:50px
+    }
+}
+@media (max-width:767px){
+    .special-content{
+        padding-left:0
+    }
+}
+ 
